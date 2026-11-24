@@ -1,0 +1,160 @@
+{
+    "schema":  "moonglade.public-source-import.v1",
+    "repository":  "https://github.com/MoongladeAI/moonglade-math-mcp",
+    "source_repository":  "D:/Development 2.0/Repos/moonglade-math-mcp",
+    "status":  "staged-public-release",
+    "generated_at":  "2026-11-10T23:25:07Z",
+    "file_count":  30,
+    "copied_files":  [
+                         {
+                             "path":  ".gitignore",
+                             "sha256":  "068945b6ac7be344fbb23e3a77caf306ffcc13496e8462b5772f4662085fef82",
+                             "bytes":  79
+                         },
+                         {
+                             "path":  "README.md",
+                             "sha256":  "4ff7f845b6ba351d930091ef556d6138065041761a9b7c427add71a38993377a",
+                             "bytes":  2528
+                         },
+                         {
+                             "path":  "pyproject.toml",
+                             "sha256":  "8b31f13aebe12dbd5135d0bd55499423d8dc14e280e0e32581062322f7b1b0bb",
+                             "bytes":  778
+                         },
+                         {
+                             "path":  "mcp_math_engine/__init__.py",
+                             "sha256":  "9e5977fd9475c562bed33aa48a18d0135bb842d5fd27609c7d164ce31bf9af73",
+                             "bytes":  4213
+                         },
+                         {
+                             "path":  "mcp_math_engine/core.py",
+                             "sha256":  "57303724bed55519b96da748829f3047910ddecbca817a5fc9da4748d4c929e2",
+                             "bytes":  2179
+                         },
+                         {
+                             "path":  "mcp_math_engine/registry.py",
+                             "sha256":  "3faeb7883d52bd3217fb364f8f56cedf0fe079ab3edd7407c7936ae8b1584a99",
+                             "bytes":  4803
+                         },
+                         {
+                             "path":  "mcp_math_engine/server.py",
+                             "sha256":  "1a5311b5a12aeb89d3e9bc37894fcc377ab1e21dee82b8d27850d6f78a54182e",
+                             "bytes":  4542
+                         },
+                         {
+                             "path":  "mcp_math_engine/modules/__init__.py",
+                             "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                             "bytes":  0
+                         },
+                         {
+                             "path":  "mcp_math_engine/modules/basic_math.py",
+                             "sha256":  "70aa1b5da7de3374d4239e0edf440cdc9a7072e271cbc645188872eae2c29e6e",
+                             "bytes":  7509
+                         },
+                         {
+                             "path":  "mcp_math_engine/modules/scientific_math.py",
+                             "sha256":  "50120c87afe8a2c67994f7c2b9d2d38b50b89938f1af0e346fef003fd23d018e",
+                             "bytes":  5684
+                         },
+                         {
+                             "path":  "mcp_math_engine/modules/financial_math.py",
+                             "sha256":  "73cc57c8a336f5d5d76c7e5f81af9a9d596b8752ff911f0fda741918432718a0",
+                             "bytes":  3680
+                         },
+                         {
+                             "path":  "plugins/__init__.py",
+                             "sha256":  "bd49f3e48c39fbf12f0ff708cabfdac1427963c464bc28bd23e4f0129b9567ea",
+                             "bytes":  1426
+                         },
+                         {
+                             "path":  "plugins/banking_adjudication/__init__.py",
+                             "sha256":  "17b93ded6bb48ceebcfec8a0574e05fc23361f4eed35c0168429232a1c1d55f0",
+                             "bytes":  295
+                         },
+                         {
+                             "path":  "plugins/banking_adjudication/engine.py",
+                             "sha256":  "269d1cf173fcf020cd53d19676e7bb4f4d3a7c3fcd07c88d3f75a0348235965d",
+                             "bytes":  8025
+                         },
+                         {
+                             "path":  "plugins/banking_adjudication/epoch_policy.py",
+                             "sha256":  "4adf71efb7fb6da51e8ce3610cc01d19f0cf42e001d40355d07c769019728a23",
+                             "bytes":  4862
+                         },
+                         {
+                             "path":  "plugins/banking_adjudication/pack.py",
+                             "sha256":  "6fedafcc5f0055376a34e686e22b2a105624784c1a3f8570baeabceec6ae65c7",
+                             "bytes":  3556
+                         },
+                         {
+                             "path":  "plugins/building_energy/__init__.py",
+                             "sha256":  "ee274b3418f1833d5feb4dabc8df48e94539d7a2846c2a2a3fd046415b7d67d1",
+                             "bytes":  52
+                         },
+                         {
+                             "path":  "plugins/building_energy/pack.py",
+                             "sha256":  "9da968799718c839a9f160283840f6ff51e206d8b03e09a88ecbaa30efcfb8ad",
+                             "bytes":  5653
+                         },
+                         {
+                             "path":  "plugins/energy_grid/__init__.py",
+                             "sha256":  "17d6508b55e69625a0348c0845cebb2616cee9b842f136f46c77bf6a80f33396",
+                             "bytes":  1267
+                         },
+                         {
+                             "path":  "plugins/energy_grid/pack.py",
+                             "sha256":  "a2bd330343cf1415c0dbd3a8fc562377d706e0b350982b777eabc73f43409827",
+                             "bytes":  8565
+                         },
+                         {
+                             "path":  "plugins/municipal_spatial/__init__.py",
+                             "sha256":  "4064485cbef55b0a1eaa854e29152da193150124bb612b1e96cf22b815a9c8b3",
+                             "bytes":  54
+                         },
+                         {
+                             "path":  "plugins/municipal_spatial/pack.py",
+                             "sha256":  "facd3f821c0de48dc913f29feca43c340663f8572c1ee8d638f82b443fe55765",
+                             "bytes":  9339
+                         },
+                         {
+                             "path":  "plugins/transit_mobility/__init__.py",
+                             "sha256":  "023c29703e53fc1bb13d8a6cecb9ce6643e8ad023b32414894f772a4717072ad",
+                             "bytes":  53
+                         },
+                         {
+                             "path":  "plugins/transit_mobility/pack.py",
+                             "sha256":  "5df4e947a84af39f28e9eb4fe48da8bf875cc027e54814b1cfc03cb9606de6fb",
+                             "bytes":  5349
+                         },
+                         {
+                             "path":  "mcp_financial_math/__init__.py",
+                             "sha256":  "e285ad64a9c1d8bb0c3f396ca17ac437b890c2c59f88c64d131d33a5fb696529",
+                             "bytes":  397
+                         },
+                         {
+                             "path":  "mcp_financial_math/engine.py",
+                             "sha256":  "4876e2814857bb43c588e53043b8da5d17f473270392ea6ff18a462db754c5ee",
+                             "bytes":  50
+                         },
+                         {
+                             "path":  "mcp_financial_math/epoch_policy.py",
+                             "sha256":  "926d834b0951564ec1d6d7bea760c460a6750227dd24cb28b4c1bd3f25701069",
+                             "bytes":  56
+                         },
+                         {
+                             "path":  "tests/test_deterministic_math_hierarchy.py",
+                             "sha256":  "aa738bd9fae6b334995b8d2dace566d1b0a97c7021445acc9b07b0db090326b4",
+                             "bytes":  5070
+                         },
+                         {
+                             "path":  "tests/test_banking_simulation.py",
+                             "sha256":  "f2ecbb89ad32bef53739cbefb5541a85bbf3d38ae42dd6f04b3b31c3ebe24c58",
+                             "bytes":  6013
+                         },
+                         {
+                             "path":  "tests/test_plugins_discovery.py",
+                             "sha256":  "db506448ea8ae6591942f5ddc9b550090149f1775eb556ef1f6448250d6edc94",
+                             "bytes":  1362
+                         }
+                     ]
+}

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mg-math-mcp"
+version = "1.0.1"
+description = "Moonglade Deterministic Math MCP Server with Hierarchical Priority Cascading, Pluggable Domain Extensions, and Cryptographic MathProof Receipts."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Marc Ottley & Anya Everyday • Moonglade AI", email = "moongladeai@gmail.com" }
+]
+dependencies = [
+    "sympy>=1.12",
+]
+
+[project.scripts]
+mg-math-mcp = "mcp_math_engine.server:main"
+moonglade-math-mcp = "mcp_math_engine.server:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mcp_math_engine*", "plugins*", "mcp_financial_math*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
