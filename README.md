@@ -40,3 +40,12 @@ def register_pack(registry: MathRegistry):
 ```
 
 All plugins in `plugins/` are automatically discovered and registered on engine startup.
+
+
+---
+
+## Open Source vs. Commercial
+
+- **Open Source Core (`MIT`):** The `mg-math-mcp` engine, `MathProof` receipts, optional `lean_proofs` module, and v1.0.1 reference plugin examples are licensed under [LICENSE](LICENSE).
+- **Commercial Domain Packs:** Maintained, compliance-grade Enterprise Domain Packs, `epoch_policy` updates, and SLA-backed RFC 3161/KMS anchoring require a commercial license—see [LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md).
+- **Trademarks:** **Moonglade™**, **Moonglade Provenance™**, and **Moonglade Verified™** are trademarks of Moonglade Inc.—see [TRADEMARKS.md](TRADEMARKS.md).
